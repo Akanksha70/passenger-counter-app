@@ -1,10 +1,14 @@
-body {
+/*body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
     background-image: url("bg.jpg");
     background-size: cover;
     font-family: "Permanent Marker", cursive;
     font-weight: bold;
     text-align: center;
-    height: 100vh;
+    min-height: 100vh;
+    margin: 0;
 }
 
 .container{
@@ -13,7 +17,32 @@ body {
     margin: auto;
     border: 3px solid black;
     border-radius: 10px;
+}*/
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url("bg.jpg");
+    background-size: cover;
+    font-family: "Permanent Marker", cursive;
+    font-weight: bold;
+    text-align: center;
+    min-height: 100vh;
+    margin: 0;
 }
+
+.container {
+    background: white;
+    width: 80%;                /* Maintain a good width percentage */
+    min-height: 350px;             
+    max-width: 300px;        /* Set a reasonable max-width */
+    padding: 40px;           /* Add padding to create space inside */
+    margin: 20px auto;       /* Add some top and bottom margin for spacing */
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Add a soft shadow for depth */
+}
+
 
 h1 {
     margin-top: 10px;
